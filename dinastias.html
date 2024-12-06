@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinastias Romanas</title>
+    <link rel="icon" type="image/x-icon" href="Icons/icon3.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('Imagens/img4.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        .cabecalho {
+            position: relative;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            height: 100px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .descricao {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 80%;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: purple;
+            color: white;
+        }
+
+        td {
+            color: white;
+        }
+
+        .rodape {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .contato button {
+            margin: 5px;
+            padding: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contato button:hover {
+            background-color: #5a005a;
+        }
+
+        .direitos {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="global" class="global">
+        <header id="cabecalho" class="cabecalho">
+            <h2>Dinastias Romanas</h2>
+            <nav id="menu" class="menu">
+                <a href="exercito.html">Exército Romano</a> |
+                <a href="cultura.html">Cultura</a> |
+                <a href="Introdução.html">Início</a> |
+                <a href="influencia.html">Influencia</a>
+            </nav>
+        </header>
+
+        <main id="conteudo" class="conteudo">
+            <section id="descricao" class="descricao">
+                <h3>Dinastias da Roma Antiga</h3>
+                <p>A tabela abaixo lista algumas das principais dinastias da Roma Antiga, junto com os períodos que governaram:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome da Dinastia</th>
+                            <th>Período</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dinastia Júlio-Claudiana</td>
+                            <td>27 a.C. - 68 d.C.</td>
+                        </tr>
+                        <tr>
+                            <td>Dinastia Flaviana</td>
+                            <td>69 - 96 d.C.</td>
+                        </tr>
+                        <tr>
+                            <td>Dinastia Nervana-Antonina</td>
+                            <td>96 - 192 d.C.</td>
+                        </tr>
+                        <tr>
+                            <td>Dinastia Severa</td>
+                            <td>193 - 235 d.C.</td>
+                        </tr>
+                        <tr>
+                            <td>Dinastia Constantiniana</td>
+                            <td>306 - 363 d.C.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer id="rodape" class="rodape">
+            <div id="contato" class="contato">
+                <button type="button" onclick="alert('| 936 784 677 |')">Telemóvel</button>
+                <button type="button" onclick="alert('| romahistoria@gmail.com |')">Email</button>
+                <button type="button" onclick="alert('| Rodrigo Lima Franqueira |')">Criador</button>
+            </div>
+            <div class="direitos">
+                <h2>Direitos Reservados</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

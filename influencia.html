@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Influência</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Icons/icon3.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('Imagens/img1.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        .cabecalho {
+            position: relative;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            height: 100px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .descricao {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 80%;
+        }
+
+        .descricao table {
+            margin: 0 auto;
+        }
+
+        .descricao td {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        video {
+            margin-top: 20px;
+        }
+
+        .rodape {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .contato button {
+            margin: 5px;
+            padding: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contato button:hover {
+            background-color: #5a005a;
+        }
+
+        .direitos {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="global" class="global">
+        <header id="cabecalho" class="cabecalho">
+            <h2>História Romana</h2>
+            <nav id="menu" class="menu">
+                <a href="exercito.html">Exército Romano</a> |
+                <a href="cultura.html">Cultura</a> |
+                <a href="Introdução.html">Início</a> |
+				<a href="dinastias.html">Dinastias</a>
+            </nav>
+        </header>
+
+        <main id="conteudo" class="conteudo">
+            <section id="descricao" class="descricao">
+                <table>
+                    <tr>
+                        <td>
+                            Nesta secção consegues encontrar informação sobre a influência romana no mundo moderno.
+                            <br>
+                            Clica no vídeo abaixo para veres um pequeno resumo.
+                        </td>
+                    </tr>
+                </table>
+                <div id="vid4" class="video">
+                    <video width="500" height="300" controls>
+                        <source src="vid4.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos.
+                    </video>
+                </div>
+            </section>
+        </main>
+
+        <footer id="rodape" class="rodape">
+            <div id="contato" class="contato">
+                <button type="button" onclick="alert('| 936 784 677 |')">Telemóvel</button>
+                <button type="button" onclick="alert('| romahistoria@gmail.com |')">Email</button>
+                <button type="button" onclick="alert('| Rodrigo Lima Franqueira |')">Criador</button>
+            </div>
+            <div class="imagem-rodape">
+                <img src="Imagens/img1.png" alt="Imagem">
+            </div>
+            <div class="direitos">
+                <h2>Direitos Reservados</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
